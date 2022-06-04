@@ -20,6 +20,14 @@ header {
     display: inline-block;
 }
 
+header a {
+    color: #E5DCC5;
+}
+
+h5 {
+    text-align: center;
+}
+
 nav {
     width: 60%;
     text-align: end;
@@ -44,12 +52,19 @@ a {
     margin: 0.25em;
 }
 
+.link270 {
+    text-align: center;
+    display: inline-block;
+    margin: 0.25em auto;
+}
+
 #mobile-collapse a {
     display: none;
 }
 
 main {
     color: #2D2D2A;
+    text-align: center;
 }
 
 main h1 {
@@ -123,7 +138,7 @@ hr {
     }
     #mobile-collapse a {
         display: none;
-        width: 90vw;
+        width: 85vw;
         margin-top: -0.5em;
         margin-bottom: 0.5em;
     }
@@ -149,12 +164,6 @@ hr {
 
 .post:hover {
     background-color: #fff;
-}
-
-.link270 {
-    display: block;
-    margin: 0.5em;
-    text-align: center;
 }
 
 #header-image {

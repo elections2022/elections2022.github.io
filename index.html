@@ -1,9 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Election Predictions</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022 Election Predictions</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<p>Testing</p>
+    <div id="header-bar">
+        <header>Election 2022</header>
+        <nav>
+            <div id="desktop-navbar">
+                <a href="./house">House</a>
+                <a href="./senate">Senate</a>
+                <a href="./governor">Governor</a>
+            </div>
+            <p id="hamburger">☰</p>
+        </nav>
+    </div>
+    
+    <div id="mobile-collapse">
+        <a href="./house">House</a>
+        <a href="./senate">Senate</a>
+        <a href="./governor">Governor</a>
+    </div>
+    <main>
+        <h1>Election 2022 Predictions</h1>
+        <div id="image-grid">
+            <a href="./house"><p class="moveDownP">House Ratings</p></a>
+            <a href="./senate"><p class="moveDownP">Senate Ratings</p></a>
+            <a href="./governor"><p class="moveDownP">Governor Ratings</p></a>
+            <a href="./house"><img src="images/latest/house.jpg" alt="House Map"></a>
+            <a href="./senate"><img src="images/latest/senate.jpg" alt="Senate Map"></a>
+            <a href="./governor"><img src="images/latest/gov.jpg" alt="Governor Map"></a>
+        </div>
+        <h2>Recent Updates</h2>
+        <hr>
+        <a href="updates/june2" class="post">
+            <h3>June 2: Intial predictions released.</h3>
+        </a>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
